@@ -21,7 +21,7 @@ use Illuminate\Http\Request;
 
 //顯示所有任務清單
 Route::get('/', function () {
-    //
+    return view('tasks');
 });
 
 //新增新的任務
